@@ -18,6 +18,33 @@ exports.get = (req, res, next) => {
     });
 }
 
+exports.getBySlug = (req, res, next) => {
+    Product.findOne({
+        slug: req.params.slug,
+        active: true
+    }, 'title description price slug tags')
+    .then(data => {
+        res.status(200).send(data);
+    }).catch(e => {
+        res.status(400).send({
+            message: "Falha ao lista produto",
+            data: e
+        });
+    });
+}
+
+exports.getById = (req, res, next) => {
+    Product.findById(req.params.id)
+    .then(data => {
+        res.status(200).send(data);
+    }).catch(e => {
+        res.status(400).send({
+            message: "Falha ao lista produto",
+            data: e
+        });
+    });
+}
+
 exports.post = (req, res, next) => {
     var product = new Product(req.body);
     /* ou
