@@ -2,9 +2,16 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const app = express();
 const router = express.Router();
+
+// Conecta ao banco
+mongoose.connect('mongodb+srv://api-nodejs:api-nodejs@cluster0-cmhn9.mongodb.net/api-nodejs?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass%20Community&retryWrites=true&ssl=true', {useNewUrlParser:true,useUnifiedTopology: true });
+
+// Carrega os models
+const productModel = require('./models/product');
 
 // Carrega as Rotas
 const indexRoute = require('./routes/index-route');
