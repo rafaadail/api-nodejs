@@ -11,7 +11,9 @@ const router = express.Router();
 mongoose.connect('mongodb+srv://api-nodejs:api-nodejs@cluster0-cmhn9.mongodb.net/api-nodejs?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass%20Community&retryWrites=true&ssl=true', {useNewUrlParser:true,useUnifiedTopology: true });
 
 // Carrega os models
-const productModel = require('./models/product');
+const Product = require('./models/product');
+const Customer = require('./models/customer');
+const Order = require('./models/order');
 
 // Carrega as Rotas
 const indexRoute = require('./routes/index-route');
