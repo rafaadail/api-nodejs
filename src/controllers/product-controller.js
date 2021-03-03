@@ -1,7 +1,5 @@
 'use strict';
 
-const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
 const repository = require('../repositories/product-repository');
 
 exports.get = async(req, res, next) => {
@@ -52,7 +50,6 @@ exports.getByTag = async(req, res, next) => {
 }
 
 exports.post = async(req, res, next) => {
-    
     try {
         await repository.create(req.body);
         res.status(201).send({ message: 'Produto cadastrado com sucesso!'});
