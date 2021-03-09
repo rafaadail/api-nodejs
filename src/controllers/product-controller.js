@@ -61,7 +61,7 @@ exports.post = async(req, res, next) => {
         let rawdata = req.body.image;
         let matches = rawdata.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/);
         let type = matches[1];
-        let buffer = new Buffer(matches[2], 'base64');
+        let buffer = Buffer.from(matches[2], 'base64');
 
         // Salva a imagem
         await blobSvc.createBlockBlobFromText('product-images', filename, buffer, {
