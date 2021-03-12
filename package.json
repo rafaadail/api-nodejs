@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./bin/server.js",
-    "build": "npm run build"
+    "dev": "nodemon ./bin/server.js",
+    "start": "node ./bin/server.js"
   },
   "keywords": [],
   "author": "",
