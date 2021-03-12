@@ -1,10 +1,10 @@
 {
-  "name": "node-str",
+  "name": "nodejsapi",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node ./bin/server.js"
+    "start": "nodemon ./bin/server.js"
   },
   "keywords": [],
   "author": "",
