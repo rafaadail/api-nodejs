@@ -1,4 +1,4 @@
-# APIs com <img src="https://simpleicons.org/icons/node-dot-js.svg?w=512" height="15" width="15"/> NodeJs 
+# APIs com <img src="https://simpleicons.org/icons/node-dot-js.svg?color=339933" height="15" width="15"/> NodeJs 
 
 ## Desenvolvimento de uma API com NodeJs e utilização do banco de dados não relacional MongoDB. Implementação de upload de imagem em base64 e salvando em Microsoft Azure Storage. Enviando e-mail com biblioteca SendGrid. Controle de autenticação JWT.
 
