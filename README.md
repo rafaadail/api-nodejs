@@ -33,3 +33,5 @@ Tecnologias
 
 # Insomnia Teste
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20NodeJs&uri=https%3A%2F%2Fraw.githubusercontent.com%2Frafaadail%2Fapi-nodejs%2Fmaster%2Fexport.json)
+
+<a href="https://insomnia.rest/run/?label=API%20NodeJs&uri=https%3A%2F%2Fraw.githubusercontent.com%2Frafaadail%2Fapi-nodejs%2Fmaster%2Fexport.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
