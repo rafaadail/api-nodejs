@@ -5,15 +5,15 @@
 Tecnologias
 =================
 <!--ts-->
-   * [Azure Storage](#azure-storage)
-   * [Express](#express)
-   * [GUID](#guid)
-   * [JWT](#jwt)
-   * [MD5](#md5)
-   * [Mongoose](#mongoose)
-   * [NodeJs](#nodejs)
-   * [Nodemon](#nodemon)
-   * [SendGrid](#sendgrid)
+   * [Azure Storage](https://github.com/Azure/azure-storage-node)
+   * [Express](http://expressjs.com/)
+   * [GUID](github.com/dandean/guid)
+   * [JWT](https://github.com/auth0/node-jsonwebtoken#readme)
+   * [MD5](https://github.com/pvorb/node-md5#readme)
+   * [Mongoose](https://mongoosejs.com/)
+   * [NodeJs](https://nodejs.org/en/)
+   * [Nodemon](https://nodemon.io/)
+   * [SendGrid](https://sendgrid.com/)
 <!--te-->
 
 ### Funcionalidades
